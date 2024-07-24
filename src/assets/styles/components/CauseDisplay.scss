@@ -1,0 +1,32 @@
+.cause-display-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  transform: translateX(80%);
+
+  @media (max-width: 1000px) {
+    top: unset;
+    bottom: -1rem;
+    inset-inline: auto;
+    transform: translate(50%, 100%);
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  img {
+    border-radius: 10px;
+    width: 80px;
+  }
+}

@@ -1,0 +1,16 @@
+.button-root.rounded-btn {
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-transform: none;
+}
+
+.rounded-btn {
+  text-transform: none !important;
+  border-radius: 1000px !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 12px !important;
+  background: rgb(34, 34, 34) !important;
+  outline: rgb(255, 255, 255) solid 1px !important;
+  padding: 0.15rem 1rem !important;
+
+}

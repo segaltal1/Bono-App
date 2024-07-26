@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://segaltal1.github.io/Bono-App",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -19,7 +22,8 @@
     "react-router-dom": "^6.24.1",
     "react-select": "^5.8.0",
     "semantic-ui-css": "^2.5.0",
-    "semantic-ui-react": "^2.1.5"
+    "semantic-ui-react": "^2.1.5",
+    "vite-plugin-checker": "^0.7.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -34,6 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "ethers": "^6.13.1",
+    "gh-pages": "^6.1.1",
     "qrcode.react": "^3.1.0",
     "sass": "^1.77.8",
     "typescript": "^5.2.2",

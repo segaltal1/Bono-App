@@ -1,6 +1,9 @@
 # Bono App
 
 This is a React application using TypeScript and Vite.
+Link for the live version. [click here](https://segaltal1.github.io/Bono-App)
+
+
 
 ## Getting Started
 

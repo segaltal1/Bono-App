@@ -14,12 +14,10 @@
 }
 
 .submit-wrapper {
-  position: fixed;
-  bottom: 3rem;
   width: 100%;
-  inset-inline: 0;
   display: flex;
   flex-direction: column;
+  margin-block: 2rem;
 
   button {
     margin-inline: auto;

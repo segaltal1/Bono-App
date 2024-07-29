@@ -4,6 +4,13 @@
   align-items: center;
   position: relative;
 
+  .wrapper {
+    width: 350px;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
   h1, h2 {
     margin-bottom: 1rem;
   }
@@ -23,6 +30,11 @@
     place-content: center;
     cursor: pointer;
     text-decoration: none;
+    @media (max-width: 600px) {
+      width: 2rem;
+      height: 2rem;
+      top: -1rem;
+    }
   }
 
   h2 {
@@ -42,7 +54,7 @@
     font-weight: 700;
     background: rgb(255, 255, 255);
     font-size: 1rem;
-    width: 340px;
+    width: min(340px, 100%);
     margin-block: 2rem;
 
     img {

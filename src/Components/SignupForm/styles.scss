@@ -13,11 +13,20 @@
   }
 }
 
-.submit-wrapper{
+.submit-wrapper {
   position: fixed;
   bottom: 3rem;
+  width: 100%;
+  inset-inline: 0;
+  display: flex;
+  flex-direction: column;
 
-  .divider{
+  button {
+    margin-inline: auto;
+    max-width: 240px !important;
+  }
+
+  .divider {
     margin-bottom: 1rem;
   }
 }

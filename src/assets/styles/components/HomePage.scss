@@ -50,7 +50,7 @@
     align-items: center;
 
     button {
-      width: 346px !important;
+      width: min(346px, 90%) !important;
     }
 
     .policy-links {

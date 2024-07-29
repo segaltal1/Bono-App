@@ -52,7 +52,6 @@ const SignupForm = () => {
             <div className="submit-wrapper">
                 <Divider className="divider"></Divider>
                 <PrimaryButton
-                    customStyle={{width: '346px'}}
                     onClick={handleSubmit}>
                     Save & Continue &#10230;
                 </PrimaryButton>

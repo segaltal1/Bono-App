@@ -77,7 +77,7 @@ export const CausesPage = () => {
                         height: '9px',
                         borderRadius: '30px',
                         backgroundColor: 'rgb(167, 202, 237)',
-                        '& .MuiLinearProgress-bar': {
+                        '& .MuiLinearProgressBar': {
                             borderRadius: '30px',
                             backgroundColor: '#4a90e2', // Color of the progress bar
                         },

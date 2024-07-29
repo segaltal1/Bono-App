@@ -6,14 +6,13 @@ export type CausesType = {
 }
 
 export const colorMapper = {
-    0: "#e4cccc",
-    1: "#e0c8c6",
-    2: "#dcbebd",
-    3: "#d8b5b4",
-    4: "#d4aca9",
-    5: "#d1a29f",
-    6: "#cda898",
-    7: "#c8a18d",
-    8: "#c5a083",
-    9: "#d5d4d1"
+    0: "#e75989",
+    1: "#b46be1",
+    2: "#d47100",
+    3: "#1893d0",
+    4: "#7886d2",
+    5: "#2a9a91",
+    6: "#bf7c47",
+    7: "#489b5b",
+    8: "#f84d42"
 }
